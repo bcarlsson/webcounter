@@ -15,7 +15,7 @@ type Counter struct {
 }
 
 func main() {
-	port := flag.String("port", "6000", "Listening port")
+	port := flag.String("port", "8888", "Listening port")
 	flag.Parse()
 	myCounter := Counter{
 		Count: 0,
